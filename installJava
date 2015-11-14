@@ -1,0 +1,14 @@
+  108  sudo update-alternatives --install /usr/bin/java java /opt/java/jdk1.8.0_31/bin/java 100
+  109  sudo update-alternatives --install /usr/bin/javaws javaws /opt/java/jdk1.8.0_31/bin/javaws 100
+  110  sudo update-alternatives --install /usr/bin/javac javac /opt/java/jdk1.8.0_31/bin/javac 100
+  111  sudo update-alternatives --install /usr/bin/jar jar /opt/java/jdk1.8.0_31/bin/jar 100
+  112  sudo update-alternatives --config java
+  114  sudo update-alternatives --install /usr/bin/java java /opt/java/jre1.8.0_31/bin/java 50
+  115  sudo update-alternatives --config java
+  124  sudo update-alternatives --install /usr/lib/mozilla/plugins/libjavaplugin.so libjavaplugin.so /usr/java/latest/jre/lib/i386/libnpjp2.so 100
+
+
+sudo update-alternatives --install /usr/lib/mozilla/plugins/libjavaplugin.so libjavaplugin.so.x86_64 /opt/java/jdk1.8.0_31/jre/lib/amd64/libnpjp2.so 100
+
+
+
