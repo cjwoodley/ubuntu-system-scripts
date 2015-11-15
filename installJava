@@ -1,3 +1,5 @@
+#This is how we configure a tar java
+
   108  sudo update-alternatives --install /usr/bin/java java /opt/java/jdk1.8.0_31/bin/java 100
   109  sudo update-alternatives --install /usr/bin/javaws javaws /opt/java/jdk1.8.0_31/bin/javaws 100
   110  sudo update-alternatives --install /usr/bin/javac javac /opt/java/jdk1.8.0_31/bin/javac 100
@@ -9,6 +11,8 @@
 
 
 sudo update-alternatives --install /usr/lib/mozilla/plugins/libjavaplugin.so libjavaplugin.so.x86_64 /opt/java/jdk1.8.0_31/jre/lib/amd64/libnpjp2.so 100
+
+
 
 
 
