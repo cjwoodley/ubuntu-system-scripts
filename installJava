@@ -11,7 +11,7 @@ sudo update-alternatives --config java
 sudo update-alternatives --install /usr/lib/mozilla/plugins/libjavaplugin.so libjavaplugin.so /usr/java/latest/jre/lib/i386/libnpjp2.so 100
 
 
-sudo update-alternatives --install /usr/lib/mozilla/plugins/libjavaplugin.so libjavaplugin.so.x86_64 /opt/java/jdk1.8.0_31/jre/lib/amd64/libnpjp2.so 100
+sudo update-alternatives --install /usr/lib/mozilla/plugins/libjavaplugin.so libjavaplugin.so.x86_64 /opt/java/current/jre/lib/amd64/libnpjp2.so 100
 
 
 
