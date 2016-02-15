@@ -1,9 +1,10 @@
 #This is how we configure a tar java
+ ln -s /opt/java/jdk1.8.0_73/ /opt/java/current
 
-sudo update-alternatives --install /usr/bin/java java /opt/java/jdk1.8.0_31/bin/java 100
-sudo update-alternatives --install /usr/bin/javaws javaws /opt/java/jdk1.8.0_31/bin/javaws 100
-sudo update-alternatives --install /usr/bin/javac javac /opt/java/jdk1.8.0_31/bin/javac 100
-sudo update-alternatives --install /usr/bin/jar jar /opt/java/jdk1.8.0_31/bin/jar 100
+sudo update-alternatives --install /usr/bin/java java /opt/java/current/bin/java 100
+sudo update-alternatives --install /usr/bin/javaws javaws /opt/java/current/bin/javaws 100
+sudo update-alternatives --install /usr/bin/javac javac /opt/java/current/bin/javac 100
+sudo update-alternatives --install /usr/bin/jar jar /opt/java/current/bin/jar 100
 sudo update-alternatives --config java
 sudo update-alternatives --install /usr/bin/java java /opt/java/jre1.8.0_31/bin/java 50
 sudo update-alternatives --config java
